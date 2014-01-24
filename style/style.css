@@ -1,0 +1,30 @@
+body {
+    background : url('../img/universe-wallpaper.jpg') no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.main {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 5em;    
+
+    margin: 0px;
+    margin-top: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+    min-width: 1200px;
+
+    color: #666;
+    background-color: rgba(194,194,194,1);
+    -webkit-box-shadow: 10px 10px 80px 23px rgba(194,194,194,1);
+    -moz-box-shadow: 10px 10px 80px 23px rgba(194,194,194,1);
+    box-shadow: 10px 10px 80px 23px rgba(194,194,194,1);
+}
+
+#universe {
+    color: #4cff00;
+}

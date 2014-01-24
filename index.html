@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>universe-simulator</title>
+        <meta name="author" content="randombenj" />
+        <meta name="description" content="Simulation of the universe" />
+        <!-- JS LIBRARYS -->
+        <script type="text/javascript" src="lib/universe-simulator/universe-simulator.js"></script>
+        <script type="text/javascript" src="lib/jquerry/jquerry-2.1.0.min.js"></script>
+        <!--CSS STYLE SHEETS-->
+        <link type="text/css" rel="stylesheet" href="style/style.css"/>
+    </head>
+    <body>
+        <div class="main">
+            <span>THE UNIVERSE IS:</span>
+            <span id="universe"></span>
+        </div>
+        <script>
+            $(function () {
+               setInterval(function () {
+                    $('#universe').text(UNIVERSE_SIMULATOR.universe.simulate());
+                }, 20);
+            });
+        </script>
+    </body>
+</html>
